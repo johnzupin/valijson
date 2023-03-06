@@ -1,0 +1,14 @@
+Source: valijson
+Section: unknown
+Priority: optional
+Maintainer: john <john@lunarg.com>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Homepage: https://github.com/tristanpenman/valijson
+Vcs-Browser: https://github.com/tristanpenman/valijson
+Vcs-Git: https://github.com/tristanpenman/valijson.git
+
+Package: valijson
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Valijson provides a simple validation API that allows you to load J SON Schemas, and validate documents loaded by one of several supported parser l ibraries.

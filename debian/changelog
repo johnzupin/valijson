@@ -1,0 +1,5 @@
+valijson (1.0-4-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- john <john@lunarg.com>  Mon, 06 Mar 2023 11:55:17 -0700
