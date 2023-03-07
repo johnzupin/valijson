@@ -1,0 +1,35 @@
+From: John Zupin <johnz@lunarg.com>
+Date: Tue, 7 Mar 2023 08:53:45 -0700
+Subject: patch: update to support ubuntu's libjsoncpp-dev package path
+
+---
+ include/valijson/adapters/jsoncpp_adapter.hpp | 2 +-
+ include/valijson/utils/jsoncpp_utils.hpp      | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/include/valijson/adapters/jsoncpp_adapter.hpp b/include/valijson/adapters/jsoncpp_adapter.hpp
+index 51a986f..bac3857 100644
+--- a/include/valijson/adapters/jsoncpp_adapter.hpp
++++ b/include/valijson/adapters/jsoncpp_adapter.hpp
+@@ -29,7 +29,7 @@
+ #include <string>
+ #include <iterator>
+ 
+-#include <json/json.h>
++#include <jsoncpp/json/json.h>
+ 
+ #include <valijson/internal/adapter.hpp>
+ #include <valijson/internal/basic_adapter.hpp>
+diff --git a/include/valijson/utils/jsoncpp_utils.hpp b/include/valijson/utils/jsoncpp_utils.hpp
+index 49a43b6..e4bdfd9 100644
+--- a/include/valijson/utils/jsoncpp_utils.hpp
++++ b/include/valijson/utils/jsoncpp_utils.hpp
+@@ -4,7 +4,7 @@
+ #include <string>
+ #include <memory>
+ 
+-#include <json/json.h>
++#include <jsoncpp/json/json.h>
+ 
+ #include <valijson/utils/file_utils.hpp>
+ 
