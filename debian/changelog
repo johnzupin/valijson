@@ -1,3 +1,11 @@
+valijson (1.0-4~rc1-1lunarg20.04-1) focal; urgency=medium
+
+  [ John Zupin ]
+  * packaging: debian: add cmake as a build-dep
+  * packaging: patch: update to include ubuntu's libjsoncpp-dev install path
+
+ -- john <john@odin>  Wed, 22 Mar 2023 11:36:38 -0600
+
 valijson (0.0-4-1) unstable; urgency=medium
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
