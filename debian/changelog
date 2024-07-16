@@ -1,3 +1,9 @@
+valijson (1.0-4~rc1-1lunarg24.04-1) noble; urgency=medium
+
+  * UNRELEASED
+
+ -- john <john@odin>  Tue, 16 Jul 2024 11:49:49 -0600
+
 valijson (1.0-4~rc1-1lunarg22.04-1) jammy; urgency=medium
 
   [ John Zupin ]
